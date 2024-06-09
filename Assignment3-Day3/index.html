@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment3-Day3</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #110f57;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 200px;
+      }
+
+      section {
+        position: relative;
+        max-width: 597px;
+        margin: auto;
+      }
+
+      section#section1 > #text {
+        margin-top: 40px;
+      }
+
+      section#section1 > #text > img {
+        width: 113px;
+        height: 33px;
+      }
+
+      section#section1 > #social-media {
+        position: absolute;
+        left: 10px;
+      }
+
+      section#section1 > #social-media > a {
+        position: absolute;
+        padding-left: 5.5px;
+        padding-top: 5px;
+      }
+
+      section#section1 > #social-media > img {
+        margin-right: 5px;
+      }
+
+      section#section1 > #line {
+        position: absolute;
+        bottom: 300px;
+        left: 430px;
+        width: 150px;
+        height: 150px;
+      }
+
+      section#section1 > #line > img.line-1 {
+        position: absolute;
+      }
+
+      section#section1 > #line > img.line-2 {
+        position: absolute;
+        left: 40px;
+      }
+
+      section#section1 > #line > img.line-3 {
+        position: absolute;
+        left: 80px;
+      }
+
+      section#section1 > #line > img.line-4 {
+        position: absolute;
+        left: 120px;
+      }
+
+      section#circle > div > img {
+        z-index: 2;
+      }
+
+      section#circle > div > .one {
+        position: absolute;
+        top: 120px;
+      }
+
+      section#circle > div > .two {
+        position: absolute;
+        right: 0px;
+        top: -115px;
+      }
+
+      section#footer > div {
+        position: absolute;
+        height: 356px;
+        width: 597px;
+        background-image: url(assets/people-picture.png);
+        background-size: cover;
+        background-position: center;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="section1">
+      <div id="text">
+        <img style="margin-bottom: 30px" src="assets/studios9.svg" alt="logo" />
+        <h1
+          style="
+            margin-bottom: 30px;
+            color: #00fb82;
+            text-align: left;
+            width: 413px;
+            height: 132px;
+            font-size: 64px;
+            font-weight: 800;
+            line-height: 1;
+          "
+        >
+          Work Together
+        </h1>
+        <p
+          style="
+            margin-bottom: 30px;
+            color: #e2e2e2;
+            text-align: left;
+            width: 329px;
+            height: 165px;
+            font-size: 14px;
+            line-height: 1.6em;
+          "
+        >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. .
+        </p>
+      </div>
+      <div id="social-media">
+        <a href="#">
+          <img src="assets/akar-icons_google-contained-fill.svg" alt="google" />
+        </a>
+        <img src="assets/circle-socialmedia.png" alt="circle" />
+        <a href="#">
+          <img src="assets/akar-icons_facebook-fill.svg" alt="google" />
+        </a>
+        <img src="assets/circle-socialmedia.png" alt="circle" />
+        <a href="#">
+          <img
+            src="assets/entypo-social_twitter-with-circle.svg"
+            alt="google"
+          />
+        </a>
+        <img src="assets/circle-socialmedia.png" alt="circle" />
+        <a href="#">
+          <img
+            src="assets/entypo-social_linkedin-with-circle.svg"
+            alt="google"
+          />
+        </a>
+        <img src="assets/circle-socialmedia.png" alt="circle" />
+      </div>
+      <div id="line">
+        <img class="line-1" src="assets/Line 1.svg" alt="line1" />
+        <img class="line-2" src="assets/Line 2.svg" alt="line2" />
+        <img class="line-3" src="assets/Line 3.svg" alt="line3" />
+        <img class="line-4" src="assets/Line 4.svg" alt="line4" />
+      </div>
+    </section>
+    <section id="circle">
+      <div>
+        <img class="one" src="assets/Group 1.svg" alt="circle" />
+        <img class="two" src="assets/Group 2.svg" alt="circle" />
+      </div>
+    </section>
+    <section id="footer">
+      <div></div>
+    </section>
+  </body>
+</html>

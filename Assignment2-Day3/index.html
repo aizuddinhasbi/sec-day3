@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment2-Day3</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        background-color: black;
+        height: 100%;
+        overflow: hidden;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      #section1 {
+        position: relative;
+        top: 5%;
+        width: 90%;
+        height: 90%;
+        border: 3px solid white;
+        border-radius: 100px;
+        margin: auto;
+        background: linear-gradient(90deg, rgb(93, 90, 90), rgb(24, 24, 24));
+      }
+
+      #section1 > .nav-bar {
+        position: absolute;
+        top: 20px;
+        width: 100%;
+        height: 200px;
+        font-size: 1.5em;
+        color: white;
+      }
+
+      #section1 > .nav-bar > .logo {
+        position: absolute;
+        top: 20%;
+        left: 7%;
+      }
+
+      #section1 > .nav-bar > .nav {
+        position: absolute;
+        left: 25%;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      #section1 > .nav-bar > .nav > span {
+        margin-right: 20px;
+      }
+
+      #section1 > .nav-bar > .search {
+        position: absolute;
+        left: 65%;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      #section1 > .nav-bar > .search > span {
+        position: absolute;
+        top: 15%;
+        margin-left: 15px;
+      }
+
+      #section1 > .nav-bar > .shop {
+        position: absolute;
+        right: 7%;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 150px;
+        height: 50px;
+        background-color: rgb(243, 168, 181);
+        border-radius: 20px;
+      }
+
+      #section1 > .nav-bar > .shop > span {
+        position: absolute;
+        text-align: center;
+        width: 150px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+      #section1 > .mid {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border: 3px solid white;
+        border-radius: 200px;
+        width: 85%;
+        height: 500px;
+      }
+
+      #section1 > .mid > .logo-mid {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        height: 500px;
+      }
+
+      #section1 > .mid > .logo-mid > img {
+        position: absolute;
+        padding-top: 10px;
+      }
+
+      #section1 > .mid > .logo-mid > span {
+        position: absolute;
+        text-align: center;
+        top: 30%;
+        transform: translateY(-30%);
+        width: 100%;
+        height: 50%;
+        color: white;
+        font-size: 20em;
+      }
+
+      #section1 > .mid > .logo-mid > .NI {
+        position: absolute;
+        right: 30%;
+        z-index: 1;
+      }
+
+      #section1 > .mid > .logo-mid > .KE {
+        position: absolute;
+        left: 25%;
+        z-index: 3;
+      }
+
+      #section1 > .mid > .logo-mid > .shoes {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+      }
+
+      #section1 > .footer {
+        position: absolute;
+        bottom: 20px;
+        color: white;
+        width: 100%;
+        height: 200px;
+      }
+
+      #section1 > .footer > .cart {
+        background-color: #4729ff;
+        position: absolute;
+        top: 60%;
+        left: 7%;
+        transform: translateY(-60%);
+        width: 250px;
+        height: 75px;
+        border-radius: 20px;
+      }
+
+      #section1 > .footer > .cart > img {
+        position: absolute;
+        top: 20%;
+        left: 15%;
+      }
+
+      #section1 > .footer > .cart > span {
+        position: absolute;
+        top: 30%;
+        left: 90%;
+        transform: translateX(-90%);
+        width: 150px;
+      }
+
+      #section1 > .footer > .info {
+        position: absolute;
+        right: 7%;
+        top: 90%;
+        transform: translateY(-90%);
+        width: 270px;
+        height: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- section 1 -->
+    <section id="section1">
+      <div class="nav-bar">
+        <div class="logo">
+          <img
+            style="width: 150px; height: 100px"
+            src="assets/nike-logo.svg"
+            alt="nike-logo"
+          />
+        </div>
+        <div class="nav">
+          <span>Man</span>
+          <span>Woman</span>
+          <span>Kid</span>
+          <span>Explore</span>
+        </div>
+        <div class="search">
+          <img
+            style="width: 40px; height: 40px"
+            src="assets/search-logo.svg"
+            alt="search"
+          />
+          <span>Search</span>
+        </div>
+        <div class="shop">
+          <span>Shop Now</span>
+        </div>
+      </div>
+      <div class="mid">
+        <div class="logo-mid">
+          <img
+            style="width: 100%; height: 90%"
+            src="assets/nike-logo-big.svg"
+            alt="nike-logo-big"
+          />
+          <span class="NI">NI</span>
+          <span class="KE">KE</span>
+          <div class="shoes">
+            <img
+              style="
+                position: absolute;
+                right: 65%;
+                bottom: 45%;
+                transform: translate(65%, 45%);
+                height: 900px;
+              "
+              src="assets/shoes.svg"
+              alt="shoes"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="cart">
+          <img
+            style="width: 40px; height: 40px"
+            src="assets/cart.svg"
+            alt="cart"
+          />
+          <span style="padding-left: px; font-size: 1.5em">Add to Cart</span>
+        </div>
+        <div class="info">
+          <p style="font-size: 1.5em; padding-top: 25px">Ultra Mechanics</p>
+          <p style="font-size: 1em; margin-top: 25px">
+            When a player steps in, a custom motor and gear train senses the
+            tension needed by the foot
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

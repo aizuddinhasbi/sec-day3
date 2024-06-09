@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #A1A1A1;
+}
+
+section  {
+    position: relative;
+    width: 1611px;
+    height: 936px;
+    background-color: #1E1F2F;
+    font-family: "Bebas Neue", sans-serif;
+    color: white;
+}
+
+section > div#left  {
+    position: absolute;
+    width: 800px;
+    height: 750px;
+    margin: 100px 30px 100px 100px;
+    z-index: 1;
+}
+
+section > div#left > div#top {
+    width: 470px;
+    height: 96px;
+}
+
+section > div#left > div#top > img {
+    width: 91.54px;
+    height: 96px;
+}
+
+section > div#left > div#top > h1 {
+    position: absolute;
+    top: -20px;
+    left: 130px;
+    width: 331px;
+    height: 96px;
+    font-size: 96px;
+    font-weight: 500;
+}
+
+section > div#left > div#mid > h2 {
+    position: absolute;
+    top: 250px;
+    width: 800px;
+    height: 280px;
+    font-size: 156px;
+    font-weight: 100;
+    line-height: 9rem;
+}
+
+section > div#left > div#bottom {
+    position: absolute;
+    bottom: 0px;
+    width: 624px;
+    height: 64px;
+}
+
+section > div#left > div#bottom > div.one {
+    position: absolute;
+    width: 264px;
+    height: 48px;
+}
+
+section > div#left > div#bottom > div.two {
+    position: absolute;
+    left: 360px;
+    bottom: 15px;
+    width: 264px;
+    height: 48px;
+}
+
+section > div#left > div#bottom > div > p {
+    position: absolute;
+    left: 65px;
+    top: -15px;
+    width: 196px;
+    height: 70px;
+    font-size: 64px;
+    font-weight: 500;
+}
+
+section > div#right {
+    position: absolute;
+    margin: 170px 100px 10px 950px;
+    width: 507px;
+    height: 618px;
+    z-index: 1;
+}
+
+section > div#right > div.white-box {
+    position: absolute;
+    width: 507px;
+    height: 618px;
+    border: 60px solid white;
+}
+
+section > div#right > div.red-box {
+    position: absolute;
+    top: 139px;
+    left: 132px;
+    width: 240px;
+    height: 240px;
+    border: 40px solid #E82C4F;
+}
+
+section > div#right > div.little-white-box {
+    position: absolute;
+    top: 219px;
+    left: 212px;
+    width: 80px;
+    height: 80px;
+    border: 20px solid white;
+}
+
+section > div#right > div.blue-box {
+    position: absolute;
+    top: 419px;
+    left: 132px;
+    width: 80px;
+    height: 80px;
+    border: 20px solid #3256a1;
+}
+
+section > div#right > div.white-circle {
+    position: absolute;
+    top: 419px;
+    left: 292px;
+    width: 80px;
+    height: 80px;
+    border: 20px solid #ffffff;
+    border-radius: 50%;
+}
+
+section > div.up-1 {
+    position: absolute;
+    left: 1169px;
+    width: 60px;
+    height: 465px;
+    background-color:  #48596D;
+}
+
+section > div.up-2 {
+    position: absolute;
+    top: 405px;
+    left: 1169px;
+    width: 442px;
+    height: 60px;
+    background-color:  #48596D;
+}
+
+section > div.down-1 {
+    position: absolute;
+    top: 395px;
+    left: 691px;
+    width: 60px;
+    height: 541px;
+    background-color:  #2D2F48;
+}
+
+section > div.down-2 {
+    position: absolute;
+    top: 390px;
+    left: 691px;
+    width: 478px;
+    height: 60px;
+    background-color:  #2D2F48;
+}
+
+section > div.down-3 {
+    position: absolute;
+    top: 395px;
+    left: 1182px;
+    width: 60px;
+    height: 540px;
+    background-color:  #2D2F48;
+}
